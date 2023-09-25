@@ -1,0 +1,167 @@
+/*Estilização geral do site*/
+body{
+    font-family: "Arial"; 
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/*Estilização do HEADER da página*/
+header{
+    background-color: rgb(126, 84, 60);
+}
+
+/*Estilização do Logotipo*/
+.logo{
+    width: 15%;
+}
+
+.banner{
+    width: 100%
+}
+
+/*Estilização do Menu*/
+nav{
+    right: 0;
+    position: absolute;
+    top:85px;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 18;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: rgb(48, 24, 2);
+    text-decoration: underline;
+}
+/*Estilização do Banner*/
+.logo_caixa{
+    width: 1500px;
+    position: relative;
+    margin: auto;
+}
+/*Estilização da sessão Sobre a empresa*/
+.arvore{
+    width: 150px;
+    float: left;
+    margin: 0 20px
+}
+
+.titulo_site{
+    clear: left;
+    text-align: center;
+    font-size: 2em;
+}
+
+.area_arvore{
+    width: 65%;
+    text-align: justify;
+    margin: auto;
+    background-color: #FFFFFE;
+}
+
+.titulo_padrao{
+    padding-top: 5%; 
+    margin: 0;
+    text-align: center;
+    font-size: 2em;
+}
+
+/*Estilização da sessão Nosso estabelecimento*/
+
+.mapa{
+    background: linear-gradient(white, #502f04);
+}
+
+.mapa p{
+    text-align: center;
+}
+
+.mapa iframe{
+    display: block;
+    margin: auto;
+}
+
+/*Estilização da sessão Benefícios*/
+
+.beneficios{
+    background: #502f04;
+}
+
+.conteudo_beneficios{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.lista_beneficios{
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+    list-style: none;
+    padding-left: 19.5% ;
+    margin-top: 3%;
+}
+
+.titulo_beneficios{
+    padding-top: 5%; 
+    margin: 0;
+    text-align: center;
+    font-size: 2em;
+    color: white;
+}
+
+.itens{
+    line-height: 2.5;
+}
+
+.itens:before{
+    content:"🌳";
+}
+
+.itens:first-child{
+    font-weight: bold;
+}
+
+.img_beneficios{
+    width: 20%;
+    box-shadow: 10px 10px 5px 0px rgb(49, 32, 26);
+    opacity: 1;
+    transition: 400ms;
+}
+
+.img_beneficios:hover{
+    opacity: 0.7;
+}
+
+.video{
+    padding-left: 31%;
+    padding-top: 2%;
+}
+
+/*Estilização do footer*/
+.footer{
+    text-align: center;
+    background: rgb(48, 24, 2);
+    padding: 15px;
+}
+
+.copyright{
+    color: white;
+    font-size: 13px;
+    margin: 5;
+}
+
+.logo_footer{
+    width:10%;
+}
