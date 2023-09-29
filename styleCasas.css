@@ -1,0 +1,126 @@
+body{
+    font-family: "Arial";
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: rgb(178, 248, 201);
+}
+
+/*Estilização do header da página*/
+header{
+    background-color: rgb(126, 84, 60);
+}       
+
+.logo{
+    width: 13.5%;
+    padding-left: 5%;
+}
+
+/*Estilização do menu*/
+nav{
+    right: 0;
+    position:absolute;
+    top: 9.5%;
+    padding-right: 5%;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 18;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: rgb(48, 24, 2);
+    text-decoration: underline;
+}
+
+.logo_caixa{
+    width: 90%;
+    position: relative;
+    margin: auto;
+}
+
+/*Estilização do main*/
+section{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+h1{
+    color: green;
+    margin-top: 5%;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    margin: 0;
+}
+
+.casas{
+    width: 100%;
+    text-align: center;
+}
+
+.casa{
+    width: 20%;
+    height: 40%;
+    display: inline-block;
+    border: 6px solid darkgreen;
+    border-radius: 12%;
+    margin: 3% 3% 3.4% 3%;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+}
+
+.casa:hover{
+    -webkit-transform: scale(1.1,1.1);
+    transform: scale(1.1,1.1);
+}
+
+.caixa_texto{
+    padding: 0;
+    margin: 0 0 0 10%;
+    display: table;
+    line-height: 2;
+}
+
+
+.caixa_texto:before{
+    content: "";
+}
+
+h2{
+    text-align: center;
+    margin: 5%;
+}
+
+.img_casa{
+    width:65%;
+}
+
+.footer{
+    text-align: center;
+    padding: 10px 0px 5px 0px;
+    background-color: rgb(48, 24, 2);
+}
+
+.copyright{
+    color: white;
+    font-size: 13px;
+    margin: 0;
+}
+
+.logo_footer{
+    width: 10%;
+}
