@@ -1,0 +1,112 @@
+/*Estilização geral do site*/
+body{
+    font-family: "Arial"; 
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: rgb(178, 248, 201);
+}
+
+/*Estilização do HEADER da página*/
+header{
+    background-color: rgb(126, 84, 60);
+}
+
+/*Estilização do Logotipo*/
+.logo{
+    width: 13.5%;
+    padding-left: 5%;
+}
+
+.banner{
+    width: 100%
+}
+
+/*Estilização do Menu*/
+nav{
+    right: 0;
+    position:absolute;
+    top: 9.5%;
+    padding-right: 5%;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 18;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: rgb(48, 24, 2);
+    text-decoration: underline;
+}
+
+section{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+h1{
+    color: green;
+    margin-top: 5%;
+    text-align: center;
+}
+
+form{
+    width: 60%;
+    padding-left: 20%;
+    
+}
+
+fieldset{
+    height: 60%;
+    color: darkgreen;
+    font-size: 110%;
+}
+
+label{
+    font-size: 110%;
+    padding-right: 5%;
+}
+
+select{
+    font-size: 80%;
+}
+
+option{
+    font-size: 110%;
+}
+
+.enviar{
+    ;
+}
+
+.input_padrao{
+    display: flex;
+    font-size: 110%;
+}
+
+.footer{
+    text-align: center;
+    padding: 10px 0px 5px 0px;
+    background-color: rgb(48, 24, 2);
+}
+
+.copyright{
+    color: white;
+    font-size: 13px;
+    margin: 0;
+}
+
+.logo_footer{
+    width: 10%;
+}
